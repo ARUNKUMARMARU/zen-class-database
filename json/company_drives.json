@@ -1,0 +1,22 @@
+[
+    {
+        "id" : "1",
+        "company_name" : "company-1",
+        "appeared_date" : "2020-10-16"
+    },
+    {
+        "id" : "2",
+        "company_name" : "company-2",
+        "appeared_date" : "2020-06-10"
+    },
+    {
+        "id" : "3",
+        "company_name" : "company-3",
+        "appeared_date" : "2020-10-23"
+    },
+    {
+        "id" : "4",
+        "company_name" : "company-4",
+        "appeared_date" : "2020-10-10"
+    }
+]

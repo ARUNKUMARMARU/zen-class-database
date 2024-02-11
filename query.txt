@@ -1,0 +1,52 @@
+1.Find all the topics and tasks which are taught in the month of October
+
+ Query : db.tasks.aggregate([
+  {
+    '$match': {
+      'taught month': 'october'
+    }
+  }, {
+    '$lookup': {
+      'from': 'topics', 
+      'localField': 'taught month', 
+      'foreignField': 'taught month', 
+      'as': 'results'
+    }
+  }
+])
+
+--------------------------------------------------------------------------------------------------------------------
+
+ 2.Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
+
+ Query : db.company_drives.find({appeared_date:{$gte:ISODate("2020-10-15"),$lt:ISODate("021-10-31")}})
+
+ -------------------------------------------------------------------------------------------------------------------
+
+
+3.Find all the company drives and students who are appeared for the placement.
+
+Query :  
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+4.Find the number of problems solved by the user in codekata
+
+Query : db.codekata.find({solved_students: "student-2"}).count()
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+5.Find all the mentors with who has the mentee's count more than 15
+
+Query : db.mentors.find({number_of_students : {$gt : 15}})
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+6.Find the number of users who are absent and task is not submitted  between 15 oct-2020 and 31-oct-2020
+
+Query : 
+
+--------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,26 @@
+[
+    {
+        "Date" : "15-10-2020",
+        "present_students" : ["student-1","student-2","student-4","student-5","student-7", "ete..."],
+        "absent_students" : ["student-3","student-6","student-8","etc..."]
+    },
+    {
+        "Date" : "16-10-2020",
+        "present_students" : ["student-2","student-3","student-4","student-5","student-7", "ete..."],
+        "absent_students" : ["student-1","student-6","student-8","etc..."]
+    },
+    {
+        "Date" : "19-10-2020",
+        "present_students" : ["student-1","student-3","student-4","student-6","student-7", "ete..."],
+        "absent_students" : ["student-5","student-2","student-8","etc..."]
+    },
+    {
+        "Date" : "20-10-2020",
+        "present_students" : ["student-1","student-2","student-4","student-5","student-7", "ete..."],
+        "absent_students" : ["student-3","student-6","student-8","etc..."]
+    }, {
+        "Date" : "21-10-2020",
+        "present_students" : ["student-1","student-2","student-3","student-5","student-8", "ete..."],
+        "absent_students" : ["student-4","student-6","student-7","etc..."]
+    }
+]

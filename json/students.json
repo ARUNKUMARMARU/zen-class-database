@@ -1,0 +1,32 @@
+ [
+    {
+        "id" : "1",
+        "name" : "student-1",
+        "placement" : "appeared",
+        "assigned mentor" : "mentor-1"
+    },
+    {
+        "id" : "2",
+        "name" : "student-2",
+        "placement" : "not appeared",
+        "assigned mentor" : "mentor-1"
+    },
+    {
+        "id" : "3",
+        "name" : "student-3",
+        "placement" : "appeared",
+        "assigned mentor" : "mentor-2"
+    },
+    {
+        "id" : "4",
+        "name" : "student-4",
+        "placement" : "not appeared",
+        "assigned mentor" : "mentor-2"
+    },
+    {
+        "id" : "5",
+        "name" : "student-5",
+        "placement" : "appeared",
+        "assigned mentor" : "mentor-2"
+    }
+]
